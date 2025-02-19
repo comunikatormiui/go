@@ -1,4 +1,4 @@
-FROM golang:1.10.3
+FROM golang:1.24.0
 RUN curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
 WORKDIR /go/src/github.com/stellar/go
 
